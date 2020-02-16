@@ -1,0 +1,155 @@
+
+/************************* TAG SELECTORS *************************/
+
+a {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625em;
+  font-weight: bold;
+  line-height: 2;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 0;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  line-height: 3;
+}
+
+hr {
+  border: none;
+  border-top: 7px dotted #EAF6F6;
+  margin: 100px auto;
+  width: 5%;
+}
+
+p {
+  color: #40514E;
+  line-height: 2;
+}
+
+/************************* CLASS SELECTORS *************************/
+
+.bottom-cloud {
+  bottom: 300px;
+  left: 250px;
+  position: absolute;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  height: 100px;
+  padding: 50px 0 20px;
+  position: relative;
+}
+
+.butn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #EAF6F6;
+  font-size: 20px;
+  background: #66BFBF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #2BC4AD;
+  text-decoration: none;
+}
+
+.contact-me {
+  margin: 50px 0;
+}
+
+.contact-paragraph {
+  margin: 40px auto 60px;
+  width: 40%;
+}
+
+.copyright-paragraph {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.darkbluegalaxy-image {
+  height: auto;
+  max-height: 300px;
+  max-width: 400px;
+  width: auto;
+}
+
+.text-liner {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.fullmoon-image {
+  width: 25%;
+  float: left;
+  margin-right: 1.9rem;
+}
+
+.intro-text {
+  margin: auto;
+  width: 30%;
+}
+
+.mcrnofficer-image {
+  float: right;
+  margin-left: 1.9rem;
+  width: 25%;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 6.25rem auto;
+  text-align: left;
+  width: 50%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+}
