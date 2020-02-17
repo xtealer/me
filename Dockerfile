@@ -5,10 +5,8 @@ FROM nginx:alpine
 RUN rm /etc/nginx/conf.d/default.conf
 
 # Copy files to the container
-COPY ./nginx.conf /etc/nginx/nginx.conf
-COPY ./conf.d/* /etc/nginx/conf.d/
-COPY ./html/cv /usr/share/nginx/html/cv
-COPY ./html/root /usr/share/nginx/html/root
+COPY ./conf.d/*.conf /etc/nginx/conf.d/
+COPY ./public /usr/share/nginx/
 COPY ./keys/*.pem /etc/ssl/certs/
 COPY ./keys/*.key /etc/ssl/private/
 

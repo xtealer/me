@@ -1,0 +1,12 @@
+# Base image
+FROM nginx:alpine
+
+# Delete default files
+RUN rm /etc/nginx/conf.d/default.conf
+RUN rm -r /usr/share/nginx/html
+
+# Copy files to container
+COPY ./conf.d.dev/*.conf /etc/nginx/conf.d/
+COPY ./public /usr/share/nginx/
+
+# Default start command unmodified
