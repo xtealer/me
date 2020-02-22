@@ -1,0 +1,18 @@
+version: '3'
+services:
+  nesapp:
+    build: '../nes-emulator'
+    image: 'xtealer/nes-emulator'
+    restart: on-failure
+  # rosegold:
+  #   image: "xtealer/home-server:rosegold"
+  #   restart: on-failure
+  # eurus2019:
+  #   image: "xtealer/home-server:eurus-2019"
+  #   restart: on-failure
+  nginx-server:
+    image: 'xtealer/home-server:nginx'
+    restart: always
+    ports:
+      - '443:443'
+      - '80:80'
