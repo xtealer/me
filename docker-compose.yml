@@ -11,6 +11,7 @@ services:
   #   image: "xtealer/home-server:eurus-2019"
   #   restart: on-failure
   nginx-server:
+    build: .
     image: 'xtealer/home-server:nginx'
     restart: always
     ports:
